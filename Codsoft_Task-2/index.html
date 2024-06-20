@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/179e91e50a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="Header"> 
+        <div class="container">
+            <nav> 
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <ul id="sidemenu">
+                    <li> <a href="#home"> Home</a></li>                    
+                    <li> <a href="#about"> About</a></li>                    
+                    <li> <a href="#skills"> Skills</a></li>                    
+                    <li> <a href="#project"> Projects</a></li>
+                    <li> <a href="#contact"> Contact</a></li>        
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>           
+                </ul>
+                </nav>
+            <div class="Header-Text">
+                <p> Web Developer </p>
+                <h1> Hi , I'm <span> Ishika </span><br>From Udaipur</h1>
+            </div>
+        </div>
+    </div>   
+    <!-- ------------------------------------ABOUT---------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/img/Id.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle"> About Me </h1>
+                    <p>I am an independent and self-motivated undergraduate actively seeking an internship opportunity. My passion for learning fuels my drive to constantly explore new and creative ideas and concepts. I thrive in dynamic environments where I can leverage my adaptability and work ethic to meet evolving goals.<br>I am motivated by the desire to apply my knowledge in real-world settings and to continue growing both personally and professionally. My goal is to gain hands-on experience in software development, where I can contribute to innovative projects and learn from industry professionals.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')"> Education </p>
+                        <p class="tab-links" onclick="opentab('Interests')"> Interests </p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>2019</span><br> Secondary Education(RBSE 10th)<br>Maruti Inter Sr Sec School,Hindaun city(karauli)<br>Percentage - 85.50%</li>
+                            <li><span>2021</span><br> Senior Secondary Education(RBSE 12th)<br>Sarvodaya Bal V M Sr Sec School, Kyarda Kalan (Karauli)<br>Percentage - 96.80%</li>
+                            <li><span>2025</span><br> B.Tech. in Computer Science <br>College Of Technology And Engineering, Udaipur<br>Curren OGPA - 7.48</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Interests">
+                        <p>Outside of my academic pursuits, I enjoy some other activities, which help me stay 
+                            balanced and inspired.</p>
+                        <ul>
+                            <li><span>Photography</span><br>One of my favorite hobbies is photography. I enjoy capturing moments through the lens, whether it's the beauty of nature or urban landscapes. Photography allows me to express my creativity and provides a unique perspective on the world. It has taught me to pay attention to details, look for interesting angles, and appreciate the art of storytelling through visuals.
+                            <br>Explore my interactive rotating photo gallery <a href="https://ishika198.github.io/Rotating-Image-Gallery/">HERE</a></li>
+                            <li><span>Dancing</span><br>I am also passionate about is dance. Dance is not only a great way to stay active, but it also allows me to express myself creatively and emotionally. I enjoy exploring different forms of dance. It has taught me discipline, rhythm, and the importance of practice and dedication. Dance helps me stay balanced and energized, and it continually inspires me to strive for excellence in all areas of my life.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------SKILLS-------------------------------------->
+    <div id="skills">
+        <div class="container">
+            <h1 class="subtitle"> My Skills </h1>
+            <div class="skills-list">
+               <div>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <h2>HTML CSS</h2>
+                Frontend Develpoment
+               </div>
+               <div>
+                <i class="fa-brands fa-square-js"></i>
+                <h2>JAVASCRIPT</h2>
+                Web Development
+               </div>
+               <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>C/C++ Problem Solving</h2>
+                Programming Language
+               </div>
+               <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>JAVA with OOPS</h2>
+                Programming Language
+               </div>
+               <div>
+                <i class="fa-brands fa-bootstrap"></i>
+                <h2>BootStrap</h2>
+                Frontend Framework
+               </div>
+               <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>React</h2>
+                Frontend Framework
+               </div>
+               <div>
+                <i class="fa-brands fa-github"></i>
+                <h2>Git</h2>
+                Version Control
+               </div>
+               <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>MySQL</h2>
+                Database Management
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------PROJECTS------------------------------ -->
+    <div id="project">
+        <div class="container">
+            <h1 class="subtitle"> Projects </h1>
+            <div class="list">
+                <!--<div class="work">
+                    <img src="/img/pizza.jpg">
+                    <div class="layer">
+                        <h2>Pizza Delivery<a href="https://github.com/Ishika198/Netflix_Series"> <i class="fa-brands 
+                            fa-github"></i></a></h2>
+                        <p>Order your favorite pizzas with just a few clicks! Enjoy hot, fresh, and mouth-watering pizzas delivered straight to your door. Why wait? Get a slice of happiness now! 🍕📱🚀</p>
+                    </div>
+                </div> -->
+                <div class="work">
+                    <img src="/img/hotel.jpg">
+                    <div class="layer">
+                        <h2>Hotel Booking Site <a href="https://github.com/Ishika198/CODSOFT/tree/main/Codsoft_Task-1"> <i class="fa-brands fa-github"></i></a></h2>
+                        <p>Discover and book your perfect stay with ease! Explore my hotel booking site <i>FlyStaySave</i>. Find great deals, compare prices, and enjoy a seamless booking experience. Plan your next getaway today! 🌟📅🚀</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/emoji.png">
+                    <div class="layer">
+                        <h2>Emoji Dictionary <a href="https://github.com/Ishika198/Netflix_Series"> <i class="fa-brands 
+                            fa-github"></i></a></h2>
+                        <p>Ever found yourself struggling to decode emojis?🤔 Don't worry, you're not alone! If you ever wonder what a particular emoji means, my app has got you covered!😄.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/netflix.jpg">
+                    <div class="layer">
+                        <h2>Netflix Sereis <a href="https://github.com/Ishika198/Netflix_Series"> <i class="fa-brands fa-github"></i></a></h2>
+                        <p>Feeling overwhelmed by the endless choices on Netflix? 😓 Say goodbye to decision fatigue! Our app presents you with the cream of the crop, so you can start watching, not searching!👀<p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/temprature.jpg">
+                    <div class="layer">
+                        <h2>Temprature<br> Convertor<a href="https://github.com/Ishika198/Basic-HTML/tree/main/Temprature_convertor"> <i class="fa-brands fa-github"></i></a></h2>
+                        <p>Confused about Celsius, Fahrenheit, and Kelvin? Don't sweat it! My temperature converter site makes temperature conversions a breeze! 🌡️💨</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------CONTACT----------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">CONTACT ME</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>  iagrawal1980@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>  +91 8440892119</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ishika-agrawal-758aab225"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    </div>
+                    <a href="resume.pdf" download class="btn">RESUME</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">SUBMIT</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p></p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu()
+        {
+            sidemenu.style.left = "0";
+        }
+
+        function closemenu()
+        {
+            sidemenu.style.left = "-200px";
+        }
+    </script>
+</body>
+</html>
